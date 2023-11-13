@@ -22,11 +22,11 @@ sequenceDiagram
     server-->>browser: Status 200 OK - the JavaScript file
     deactivate server
     
-    Note right of browser: The browser starts executing the JavaScript code that triggers GET the JSON from the server
+    Note right of browser: The browser starts executing the JavaScript code that triggers GET the JSON from the server.
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server-->>browser: Status 200 OK - the JSON file
     deactivate server    
 
-    Note right of browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser executes the callback function that renders the notes.
